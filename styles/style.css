@@ -22,6 +22,7 @@
 
 .first-container {
     background-color: var(--Bright-orange);
+    width: 221px;
 
 }
 
@@ -72,6 +73,7 @@
 
 .third-container {
     background-color: var(--Very-dark-cyan);
+    width: 221px;
 }
 
 @media screen and (max-width: 1440px) {

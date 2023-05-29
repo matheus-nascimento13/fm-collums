@@ -7,8 +7,17 @@
     --Very-light-gray: hsl(0, 0%, 95%);
 }
 
-.container {
+* {
+    padding: 0;
+    margin: 0;
+}
 
+.body {
+    min-height: 100vh;
+}
+
+.container {
+    margin-top: 5rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -23,6 +32,7 @@
 .first-container {
     background-color: var(--Bright-orange);
     width: 221px;
+    height: 283px;
 
 }
 
@@ -69,14 +79,17 @@
 .second-container {
     background-color: var(--Dark-cyan);
     width: 221px;
+    height: 283px;
 }
 
 .third-container {
     background-color: var(--Very-dark-cyan);
     width: 221px;
+    height: 283px;
 }
 
 @media screen and (max-width: 1440px) {
+
 
     .container {
         display: flex;
